@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.tensorflow.lite.examples.imageclassification.app-mergeDebugResources-47:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JohnT\\.gradle\\caches\\transforms-3\\0bfe962444318a45e27651626bf5cf8e\\transformed\\appcompat-1.5.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
