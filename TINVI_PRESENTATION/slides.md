@@ -128,7 +128,7 @@ css: unocss
   </div>
   </div>
 <center>
-<img src="https://img.blogs.es/anexom/wp-content/uploads/2019/06/inteligenciaartificial.jpg" class="m-40 h-40 rounded shadow" />
+<img src="https://img.blogs.es/anexom/wp-content/uploads/2019/06/inteligenciaartificial.jpg" class="m-10 h-40 rounded shadow" />
 </center>
 
 ---
@@ -141,7 +141,7 @@ css: unocss
   </div>
   </div>
 <center>
-<img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/11/inteligencia-artificial-huawei.jpg" class="m-40 h-40 rounded shadow" />
+<img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/11/inteligencia-artificial-huawei.jpg" class="m-10 h-40 rounded shadow" />
 </center>
 
 ---
@@ -156,7 +156,7 @@ css: unocss
   </div>
   </div>
 <center>
-<img src="https://larepublica.pe/resizer/roeLbjwVq9nYr9pMJfWO7OR9ato=/1200x660/top/arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/T7JRQIDJD5EXTPUTV7LXS46GGM.jpg" class="m-40 h-40 rounded shadow" />
+<img src="https://larepublica.pe/resizer/roeLbjwVq9nYr9pMJfWO7OR9ato=/1200x660/top/arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/T7JRQIDJD5EXTPUTV7LXS46GGM.jpg" class="img-size m-10 rounded shadow" />
 </center>
 
 ---
@@ -177,6 +177,11 @@ css: unocss
 
 
 <style>
+.img-size {
+  width: 400px;
+  height: 250px;
+}
+
 .card_information {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

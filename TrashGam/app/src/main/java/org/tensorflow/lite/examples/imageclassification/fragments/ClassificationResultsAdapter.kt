@@ -72,8 +72,19 @@ class ClassificationResultsAdapter :
 
         fun bind(label: String?, score: Float?) {
             with(binding) {
-                tvLabel.text = label ?: NO_VALUE
-                tvScore.text = if (score != null) String.format("%.2f", score) else NO_VALUE
+                tvLabel.text = when(label){
+                    "0" -> { "Basura Organica" }
+                    "1" -> { "Basura Inorganica" }
+                    "2" -> { "Basura Biodegradable" }
+                    "3" -> { "Basura Plastica" }
+                    else -> NO_VALUE
+                }
+                tvScore.text = if (score != null) {
+                    score.toString().trim()
+                    //String.format("%.2", score_str)
+                } else {
+                    NO_VALUE
+                }
             }
         }
     }
