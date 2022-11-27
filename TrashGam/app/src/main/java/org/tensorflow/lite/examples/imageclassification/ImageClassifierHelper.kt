@@ -75,6 +75,10 @@ class ImageClassifierHelper(
 
         val modelName =
             when (currentModel) {
+                MODEL_MOBILENETV1 -> "mobilenetv1.tflite"
+                MODEL_EFFICIENTNETV0 -> "efficientnet-lite0.tflite"
+                MODEL_EFFICIENTNETV1 -> "efficientnet-lite1.tflite"
+                MODEL_EFFICIENTNETV2 -> "efficientnet-lite2.tflite"
                 MODEL_WASTE_SORTING -> "wastesorting_model.tflite"
                 else -> "wastesorting_model.tflite"
             }
@@ -148,7 +152,11 @@ class ImageClassifierHelper(
         const val DELEGATE_CPU = 0
         const val DELEGATE_GPU = 1
         const val DELEGATE_NNAPI = 2
-        const val MODEL_WASTE_SORTING = 1
+        const val MODEL_MOBILENETV1 = 0
+        const val MODEL_EFFICIENTNETV0 = 1
+        const val MODEL_EFFICIENTNETV1 = 2
+        const val MODEL_EFFICIENTNETV2 = 3
+        const val MODEL_WASTE_SORTING = 4
 
         private const val TAG = "ImageClassifierHelper"
     }
