@@ -342,7 +342,12 @@ css: unocss
 
 # Conclusiones
 
-<p>En esta tesis se mostro el desarrollo de una aplicación móvil la cual tiene embebida dentro de la  misma  un modelo  de  inteligencia  artificial  el  cual  fue  desarrollado  dentro de la  plataforma de Teachable Machine, dicha aplicación cuenta con la capacidad de poder ordenar la basura dentro de nuestro ITGAM. El funcionamiento del aplicativo ha sido demostrado utilizando diferentes ejemplos de desechos que pudiesen ser originados dentro del Instituto, medimos la eficacia de nuestro aplicativo cuando el score de dicho elemento llega a mas del 60%, una vez obteniendo ese resultado podemos decir que nuestro algoritmo y nuestra IA están funcionando de forma correcta dentro de nuestro dispositivo móvil. En un futuro se planea que la aplicación pueda migrar sus interfaces a una pantalla mas grande como bien puede ser la de una Tablet. Además pudimos satisfacer el objetivo principal de nuestro proyecto que es la correcta separación de residuos con el uso de una IA y a la vez lograr que este proyecto este relacionado con los objetivos de  desarrollo sustentable de  la  ONU,  logrando  así  poner  nuestro  grano de  arena  para  llevar  una correcta metodología que ayude al objetivo número 13 de los mismos. Aún así cabe recalcar que la eficacia de la aplicación puede que no sea del 100% puesto que no solo se  ve  involucrada  la  parte  tecnológica  si  no  también  la  humana  y  queda  al  libre  albedrio  de  las personas  el  utilizar  o  no  la  aplicación  siendo  esta  solamente  un  apoyo  y  no  una  obligación, concluyendo el desarrollo de esta de manera satisfactoria.</p>
+<p>En esta tesis se mostro el desarrollo de una aplicación móvil la cual tiene embebida dentro de la  misma  un modelo  de  inteligencia  artificial  el  cual  fue  desarrollado  dentro de la  plataforma de Teachable Machine, dicha aplicación cuenta con la capacidad de poder ordenar la basura dentro de nuestro ITGAM. El funcionamiento del aplicativo ha sido demostrado utilizando diferentes ejemplos de desechos que pudiesen ser originados dentro del Instituto, medimos la eficacia de nuestro aplicativo cuando el score de dicho elemento llega a mas del 60%, una vez obteniendo ese resultado podemos decir que nuestro algoritmo y nuestra IA están funcionando de forma correcta dentro de nuestro dispositivo móvil. </p>
+
+---
+
+# Conclusiones
+<p>En un futuro se planea que la aplicación pueda migrar sus interfaces a una pantalla mas grande como bien puede ser la de una Tablet. Además pudimos satisfacer el objetivo principal de nuestro proyecto que es la correcta separación de residuos con el uso de una IA y a la vez lograr que este proyecto este relacionado con los objetivos de  desarrollo sustentable de  la  ONU,  logrando  así  poner  nuestro  grano de  arena  para  llevar  una correcta metodología que ayude al objetivo número 13 de los mismos. Aún así cabe recalcar que la eficacia de la aplicación puede que no sea del 100% puesto que no solo se  ve  involucrada  la  parte  tecnológica  si  no  también  la  humana  y  queda  al  libre  albedrio  de  las personas  el  utilizar  o  no  la  aplicación  siendo  esta  solamente  un  apoyo  y  no  una  obligación, concluyendo el desarrollo de esta de manera satisfactoria.</p>
 
 ---
 
@@ -354,7 +359,7 @@ css: unocss
 <div class="card_contact">
   <div class="container">
   <center>
-<img src="/img/picture_profile_uriel.png" class="img-size_profile rounded shadow" />
+<img src="/img/picture_profile_john.png" class="img-size_profile rounded shadow" />
     <h4><b>Morales Tavera Jonatan Arturo</b></h4>
     <p>johnta2610@hotmail.com</p>
     </center>
@@ -396,6 +401,11 @@ img {
 
 p {
   text-align: justify;
+}
+
+.img-size_profile {
+  width: 200px;
+  height: 200px;
 }
 
 .img-size {
