@@ -22,24 +22,24 @@
 22
 23    <uses-sdk
 24        android:minSdkVersion="23"
-24-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml
+24-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml
 25        android:targetSdkVersion="33" />
-25-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml
+25-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml
 26
 27    <!-- Enable instant app support -->
 28    <dist:module dist:instant="true" />
-28-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:23:5-40
-28-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:23:18-37
+28-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:23:5-40
+28-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:23:18-37
 29
 30    <!-- Declare features -->
 31    <uses-feature android:name="android.hardware.camera" />
-31-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:26:5-60
-31-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:26:19-57
+31-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:26:5-60
+31-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:26:19-57
 32
 33    <!-- Declare permissions -->
 34    <uses-permission android:name="android.permission.CAMERA" />
-34-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:29:5-65
-34-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:29:22-62
+34-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:29:5-65
+34-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:29:22-62
 35
 36    <permission
 36-->[androidx.core:core:1.9.0] C:\Users\JohnT\.gradle\caches\transforms-3\51b23de8146439f8a5099c5844c068bc\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
@@ -56,60 +56,60 @@
 43    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 44
 45    <application
-45-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:31:5-62:19
+45-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:31:5-62:19
 46        android:allowBackup="true"
-46-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:32:9-35
+46-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:32:9-35
 47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 47-->[androidx.core:core:1.9.0] C:\Users\JohnT\.gradle\caches\transforms-3\51b23de8146439f8a5099c5844c068bc\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 48        android:debuggable="true"
 49        android:extractNativeLibs="false"
 50        android:icon="@mipmap/ic_launcher"
-50-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:33:9-43
+50-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:33:9-43
 51        android:label="@string/app_name"
-51-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:34:9-41
+51-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:34:9-41
 52        android:roundIcon="@mipmap/ic_launcher_round"
-52-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:35:9-54
+52-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:35:9-54
 53        android:supportsRtl="true"
-53-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:36:9-35
+53-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:36:9-35
 54        android:taskAffinity=""
-54-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:37:9-32
+54-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:37:9-32
 55        android:testOnly="true" >
 56        <activity
-56-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:40:9-61:20
+56-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:40:9-61:20
 57            android:name="org.tensorflow.lite.examples.imageclassification.MainActivity"
-57-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:41:13-41
+57-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:41:13-41
 58            android:clearTaskOnLaunch="true"
-58-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:42:13-45
+58-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:42:13-45
 59            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-59-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:43:13-91
+59-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:43:13-91
 60            android:exported="true"
-60-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:44:13-36
+60-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:44:13-36
 61            android:resizeableActivity="true"
-61-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:45:13-46
+61-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:45:13-46
 62            android:rotationAnimation="seamless"
-62-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:46:13-49
+62-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:46:13-49
 63            android:theme="@style/AppTheme" >
-63-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:47:13-44
+63-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:47:13-44
 64
 65            <!-- Main app intent filter -->
 66            <intent-filter>
-66-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:51:13-55:29
+66-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:51:13-55:29
 67                <action android:name="android.intent.action.MAIN" />
-67-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:52:17-69
-67-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:52:25-66
+67-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:52:17-69
+67-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:52:25-66
 68
 69                <category android:name="android.intent.category.LAUNCHER" />
-69-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:54:17-77
-69-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:54:27-74
+69-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:54:17-77
+69-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:54:27-74
 70            </intent-filter>
 71
 72            <!-- Declare notch support -->
 73            <meta-data
-73-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:58:13-60:40
+73-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:58:13-60:40
 74                android:name="android.notch_support"
-74-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:59:17-53
+74-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:59:17-53
 75                android:value="true" />
-75-->C:\Users\JohnT\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:60:17-37
+75-->C:\Users\JohnT\Documents\Github\TrashGam\TrashGam\app\src\main\AndroidManifest.xml:60:17-37
 76        </activity>
 77
 78        <uses-library
